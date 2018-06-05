@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Word Puzzle</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Quiz</h2>
+      </div>
+      <form id="stress-quiz">
+        <div class="form-group">
+          <p>In the past year, I have experienced the following health warnings:</p>
+          <input type="checkbox" name="warnings" value="1"> Do you have bad sleep?<br>
+          <input type="checkbox" name="warnings" value="1">Do you feel overwhelmed?<br>
+          <input type="checkbox" name="warnings" value="1">Do you feel like you have no energy?<br>
+          <input type="checkbox" name="warnings" value="1">Are you often irritated?<br>
+          <input type="checkbox" name="warnings" value="1">Do you often feel fatigued?<br>
+          <input type="checkbox" name="warnings" value="1">Are you getting bloated?<br>
+          <input type="checkbox" name="warnings" value="1">Are you having poor digestion?<br>
+        </div>
+        <div class="form-group">
+          <p>In the past year, I have noticed the following symptoms:</p>
+          <input type="checkbox" name="symptoms" value="1"> Do you have abnormal blood pressure?<br>
+          <input type="checkbox" name="symptoms" value="1">Do you get headaches often?<br>
+          <input type="checkbox" name="symptoms" value="1">Do you get frequent chest pain or shortness of breath?<br>
+          <input type="checkbox" name="symptoms" value="1">Do you often become ill or feel sick?<br>
+          <input type="checkbox" name="symptoms" value="1">Do you feel depressed?<br>
+          <input type="checkbox" name="symptoms" value="1">Do you sweat a lot?<br>
+          <input type="checkbox" name="symptoms" value="1">Do you often feel dizzy?<br>
+        </div>
+        <div class="form-group">
+          <p>In the past year, I have practiced the following good habbits:</p>
+          <input type="checkbox" name="good-practices" value="1"> Lots of physical exercise<br>
+          <input type="checkbox" name="good-practices" value="1">Having a good sleep<br>
+          <input type="checkbox" name="good-practices" value="1">Yoga/meditation<br>
+          <input type="checkbox" name="good-practices" value="1">Socialization<br>
+          <input type="checkbox" name="good-practices" value="1">Have a stress diary<br>
+          <input type="checkbox" name="good-practices" value="1">I have learnt to say NO<br>
+          <input type="checkbox" name="good-practices" value="1">Good time management<br>
+          </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="sol1">
+        <p><b>You are very healthy</b></p>
+      </span>
+      <br>
+      <span id="sol2">
+        <p><b>You are in the border line</b></p>
+      </span>
+      <br>
+      <span id="sol3">
+        <p><b>You need to do stress management and consult a doctor.</b></p>
+      </span>
+      <br>
+      <span id="sol4">
+        <p><b>You need to see a doctor immediatly!!</b></p>
+      </span>
+    </div>
+  </body>
+  </html>
